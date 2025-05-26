@@ -89,10 +89,10 @@ DATABASES = {
         # the below config is done to use mySQL database, if mySQL is not 
         # configured in the system replace the entire below code with the above comment
        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'tour', # this should be replaced by your own DB name
-        'USER': 'MTA', #Your username for mysql
-        'PASSWORD': '12345',  #Your password for MySQL
-        'HOST': '127.0.0.1',  
+        'NAME': 'jetsetgo_db', # this should be replaced by your own DB name
+        'USER': 'root', #Your username for mysql
+        'PASSWORD': 'root',  #Your password for MySQL
+        'HOST': 'localhost',  
         'PORT': '3306',  
         'OPTIONS': {  
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"  
