@@ -84,16 +84,20 @@ WSGI_APPLICATION = 'jetsetgo.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'jetsetgo_db',
-        'USER': 'mjk',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '3306',
-        'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-        }
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3'
+        # the below config is done to use mySQL database, if mySQL is not 
+        # configured in the system replace the entire below code with the above comment
+       'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'jetsetgo_db', # this should be replaced by your own DB name
+        'USER': 'mjk', #Your username for mysql
+        'PASSWORD': '',  #Your password for MySQL
+        'HOST': 'localhost',  
+        'PORT': '3306',  
+        'OPTIONS': {  
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"  
     }
+}
 }
 
 
