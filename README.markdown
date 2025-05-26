@@ -68,12 +68,6 @@ JetSetGo is a travel itinerary website designed to help users plan their trips e
    ```
    You should now be able to access the JetSetGo website and start planning your trips!
 
-## Contributors
-
-- Mohammed Tariq Akram
-- Muskan Kwatra
-- Mohit Verma
-- Laasya Vasaath
 
 ## Acknowledgements
 
